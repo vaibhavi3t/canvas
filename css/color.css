@@ -1,0 +1,117 @@
+/***************************************************************************/
+/* COLOR AND IMAGES SETTINGS
+/***************************************************************************/
+
+body { background:#fff repeat-x top center; color:#555;}
+
+#header{ background-color:#fff; }
+
+/* Elements ****************************************************************/
+a { color:#51B22E; }
+
+hr { background-color:#AAA; color:#AAA; }
+blockquote { background:transparent url("../images/quote.png") no-repeat 10px 10px; color:#777; }
+blockquote cite { color:#333; }
+dt { color:#333; }
+ul.green li { background:transparent url("../images/bullet_green.png") no-repeat scroll 7px 7px; }
+ul.yellow li { background:transparent url("../images/bullet_yellow.png") no-repeat scroll 7px 7px; }
+ul.blue li { background:transparent url("../images/bullet_blue.png") no-repeat scroll 7px 7px; }
+
+img.framed { background-color:#fff; border:1px solid #AAA; }
+a img.framed:hover { background-color:#DDD;  }
+
+fieldset, legend { background-color:#F5F5F5; border:1px solid #AAA; }
+input, textarea, select { background-color:#fff; border:1px solid #AAA; color:#444; }
+input.button:hover { background-color:#111; color:#CCC; }
+
+tr {  }
+th, td { border:1px solid #AAA; }
+th { background-color: #F0F0F0; color:#333; }
+
+acronym { border-bottom: 1px dotted #AAA; }
+/* -END- Elements **********************************************************/
+
+/* Headings ****************************************************************/
+h1, h2, h3, h4, h5, h6 { color:#222; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#222; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color:#999; }
+
+h1.border, 
+h2.border, 
+h3.border,
+h4.border,
+h5.border,
+h6.border { border-bottom:1px solid #AAA; }
+
+h1.logo a { background:transparent url("../images/logo.png") no-repeat center left; color:#EEE; }
+/* -END-  Headings *********************************************************/
+
+/* Breadcrumb **************************************************************/
+#breadcrumb { background:#ddfecd url("../images/border_shadow.png") repeat-x 0 0; border-bottom:1px solid #FFF; border-top:1px solid #EAEAEA; color:#999; }
+#breadcrumb input { background-color:#F0F0F0; border:1px solid #CCC; color:#444; }
+#breadcrumb input.button { color:#555; }
+#breadcrumb input.button:hover { background-color:#111; color:#CCC; }
+/* -END- Breadcrumb ********************************************************/
+
+/* Content *****************************************************************/
+#content { background:#fff url("../images/border_shadow.png") repeat-x 0 0; border-top:1px solid #EAEAEA; }
+/* -END- Content ***********************************************************/
+
+/* Portfolio ***************************************************************/
+a.switch_thumb { background:#F0F0F0 url(../images/gallery.png) no-repeat right top; border:1px solid #AAA; color:#444; }
+a.switch_thumb:hover { background-color:#111; color:#CCC; }
+a.swap { background-position:right bottom; }
+
+ul.portfolio a.lightbox { background:transparent  url("../images/magnifier.png") no-repeat center center; }
+
+ul.portfolio .list_view h3 { border-bottom:1px solid #AAA; }
+
+.portfolio_single h3, 
+.portfolio_single h4, 
+.portfolio_single h5, 
+.portfolio_single h6 { border-bottom:1px solid #AAA; }
+/* -END- Portfolio *********************************************************/
+
+/* Blog ********************************************************************/
+ul.blog .blog_info { background-color:#111; }
+ul.blog .blog_info { color:#CCC; }
+ul.blog li.entry h3, 
+ul.blog li.entry h4, 
+ul.blog li.entry h5, 
+ul.blog li.entry h6 { border-bottom:1px solid #AAA; }
+
+ul.blog ul.comments .comment_content { border:1px solid #AAA; }
+ul.blog ul.comments .comment_content small { color:#999; }
+/* -END- Blog **************************************************************/
+
+/* Blog_brief **************************************************************/
+ul.blog_brief .blog_info { background-color:#111; }
+ul.blog_brief .blog_info { color:#CCC; }
+/* -END- Blog_brief ********************************************************/
+
+/* Sidebar *****************************************************************/
+.sidebar h3 { border-bottom:1px solid #AAA; }
+.sidebar ul li a { color:#555; }
+.sidebar ul li a:hover { color:#999; }
+/* -END- Sidebar ***********************************************************/
+
+/* Contact *****************************************************************/
+#contact_form span.error { color:#C00; }
+/* -END - Contact **********************************************************/
+
+/* Pagination **************************************************************/
+ul.pagination { color:#999; }
+ul.pagination .current { border:1px solid #AAA; color:#555; }
+/* -END- Pagination ********************************************************/
+
+/* Footer ******************************************************************/
+#footer { border-bottom:1px solid #000; color:#CCC; }
+#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 { color:#DDD; }
+#footer ul.pages li a { color:#CCC; }
+#footer ul.pages li a:hover { color:#51B22E; }
+#footer .flickr img { border:1px solid #888; }
+#footer .flickr img:hover { border-color: #FFF; }
+
+#sub_footer { color:#CCC; border-top:1px solid #222; }
+#sub_footer  a.logo { background:transparent url("../images/logo-32.png")no-repeat center left; color:#EEE; }
+/* -END- Footer ************************************************************/

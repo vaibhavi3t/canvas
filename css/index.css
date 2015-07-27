@@ -1,0 +1,66 @@
+/*#main
+{
+  width:1336px;
+  height:655px;
+  
+  
+}*/
+#top
+{
+  width:1336px;
+  height:200px;
+  color:#FFFFFF;
+  
+  
+}
+#heading
+{
+  margin-left:150px;
+  margin-top:25px;
+  float:left;
+  font-size:40px;
+  font-family:"Bodoni MT";
+  width:500px;
+}
+#login
+{
+  float:right;
+  margin-left:450px;
+  margin-top:20px;
+  font-family:"Times New Roman", Times, serif;
+  width:550px;
+  font-size:20px;
+  
+  
+}
+#login_button
+{
+  float:right;
+  margin-right:75px;
+  margin-top:10px;
+  width:70px;
+  padding:inherit;
+  font-size:16px;
+  
+  
+}
+#logo
+{
+  
+  margin-left:100px;
+  margin-top:80px;
+  border-radius:10px;
+  float:left;
+  
+}
+#signup
+{
+  float:right;
+  margin-right:140px;
+  margin-top:100px;
+  display:inline;
+  position:relative;
+  width:340px;
+  height:780px;
+  border:0px;
+}

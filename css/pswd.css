@@ -1,0 +1,83 @@
+#passwordStrength
+
+{
+
+        height:10px;
+
+        display:block;
+
+        float:left;
+
+}
+
+
+
+.strength0
+
+{
+
+        width:5px;
+
+        background:#cccccc;
+
+}
+
+
+
+.strength1
+
+{
+
+        width:20px;
+
+        background:#ff0000;
+
+}
+
+
+
+.strength2
+
+{
+
+        width:40px;    
+
+        background:#ff5f5f;
+
+}
+
+
+
+.strength3
+
+{
+
+        width:60px;
+
+        background:#56e500;
+
+}
+
+
+
+.strength4
+
+{
+
+        background:#4dcd00;
+
+        width:80px;
+
+}
+
+
+
+.strength5
+
+{
+
+        background:#399800;
+
+        width:10px;
+
+}

@@ -1,0 +1,41 @@
+html
+{
+    font-family:verdana,arial;
+    font-size:10px;
+}
+.logincontainer
+{
+    width:300px;
+}
+.breaker
+{
+    clear:both;
+}
+.formtext
+{
+    font-family:verdana;
+    font-size:10px;
+    border:1px solid #666;
+}
+.rows
+{
+    float:left;
+    width:130px;
+    padding:3px;
+}
+.button
+{
+    border:1px solid #666;
+    font-family:verdana, arial;
+    font-size:10px;
+}
+.trap_error
+{
+    color:red;
+}
+.newmessage
+{
+    float:left;
+    height: 100px;
+    vertical-align: middle;
+}

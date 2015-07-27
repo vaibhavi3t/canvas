@@ -1,0 +1,194 @@
+/***************************************************************************/
+/* GENERAL CLASSES
+/***************************************************************************/
+.left { float:left; }
+.right { float:right; }
+.clear { clear:both; }
+
+.rounded, .blog_info, .framed, input, textarea, select, fieldset, legend, ul.pagination .current, a.switch_thumb
+{ 
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+
+/***************************************************************************/
+/* LAYOUT
+/***************************************************************************/
+
+#header { height:60px; margin:40px 0; position:relative; z-index:10; }
+#featured { padding:0 0 40px 0; }
+#featured img { height:295px; width:925px; }
+
+/* Elements ****************************************************************/
+p {	margin-bottom:15px; }
+hr { border:none; height:1px; margin:20px 0 30px; padding:0; }
+blockquote { margin:0 0 20px 0; padding: 10px 10px 10px 50px; }
+blockquote cite { float:right; }
+img.icon { float:left; margin:5px 10px 0 0; width:40px;}
+img.left { margin:15px 30px 15px 0;}
+img.right { margin:15px 0 15px 30px;}
+img.framed { padding:5px;}
+dl { margin:10px 0; }
+dd { padding-left:20px; }
+ul, ol { margin: 10px 0; padding:0 0 0 20px;}
+ol { list-style: decimal; }
+ul { list-style: disc; }
+ul.green, ul.yellow ,ul.blue   { list-style: none; padding:0; }
+ul.green li, ul.yellow li, ul.blue li { padding-left:20px; }
+ul ul, ul ol, ol ol, ol ul { margin:0 0 0 20px; }
+
+fieldset { margin:0 0 20px; padding:20px; }
+legend { padding:5px 15px; }
+input, select { padding:4px; width:350px; }
+textarea { padding:4px; width:550px; }
+input.radio, input.checkbox { width:20px; }
+input.button { width:100px; }
+
+table { border-collapse:collapse; margin:0 0 20px;	}
+th, td { text-align:left; }
+th { padding:10px 20px; }
+td {	padding:5px 10px; }
+
+sub { vertical-align:bottom; }
+sup { vertical-align:top; }
+
+acronym { cursor:help; }
+
+/* -END- Elements **********************************************************/
+
+/* Headings ****************************************************************/
+h1{ margin-bottom: 1em; }
+h2 { margin-bottom: 0.8em; }
+h3 { margin-bottom: 0.7em; }
+h4 { margin-bottom: 0.7em; }
+h5 { margin-bottom: 0.6em; }
+h6 { margin-bottom: 0.5em; }
+
+h1.border, 
+h2.border, 
+h3.border,
+h4.border,
+h5.border,
+h6.border { padding:0 0 10px; }
+
+h1.logo { margin:0; }
+h1.logo a { display:block; padding-left:48px; height:60px; }
+/* -END-  Headings *********************************************************/
+
+/* Breadcrumb **************************************************************/
+#breadcrumb { padding:10px 0; }
+#breadcrumb p { margin:5px 0 0; }
+#breadcrumb form.search p { margin:0; }
+form.search input { padding:4px; width:135px; }
+form.search input.button { width:70px; }
+
+
+input, select { padding:4px; width:350px; }
+textarea { padding:4px; width:550px; }
+input.radio, input.checkbox { width:20px; }
+input.button { width:100px; }
+/* -END- Breadcrumb ********************************************************/
+
+/* Content *****************************************************************/
+#content { padding:40px 0; position:relative; }
+/* -END- Content ***********************************************************/
+
+/* Portfolio ***************************************************************/
+a.switch_thumb { display:block; height:25px; margin:0 0 20px; outline:none; padding:0 40px 0 10px; width:100px; }
+
+ul.portfolio { list-style:none; margin:0 0 40px; padding:0; }
+ul.portfolio li.grid_view { margin-bottom:0; }
+ul.portfolio li.list_view { margin-bottom:30px; }
+ul.portfolio a.lightbox { display:block; }
+ul.portfolio img { margin-bottom:5px; margin-top:10px; padding:5px; width:288px; }
+/* ul.portfolio .list_view img { width:288px; } */
+ul.portfolio h3 { margin-bottom:10px; }
+ul.portfolio .list_view h3 { padding-bottom:5px; }
+ul.portfolio .grid_view .text { height: 140px; margin:0; overflow:hidden;}
+ul.portfolio .list_view .text { margin-top:10px; }
+ul.portfolio .grid_view .extended { display:none; }
+ul.portfolio .list_view .extended { display:inline; }
+ul.portfolio .grid_view p { margin:0; }
+ul.portfolio .list_view p { margin-bottom:15px; }
+ul.portfolio  small { float:left; }
+
+.portfolio_single h3, 
+.portfolio_single h4, 
+.portfolio_single h5, 
+.portfolio_single h6 { padding:20px 0 10px; }
+/* -END- Portfolio *********************************************************/
+
+/* Blog ********************************************************************/
+ul.blog { list-style:none; margin-bottom:40px; margin-top:0; padding:0; }
+ul.blog li.entry { margin-bottom:40px; }
+ul.blog li.entry h3, 
+ul.blog li.entry h4, 
+ul.blog li.entry h5, 
+ul.blog li.entry h6 { padding:20px 0 10px; }
+ul.blog .blog_info { margin:0 0 20px; }
+ul.blog .blog_info .date { float:left; padding:5px 10px; }
+ul.blog .blog_info .info { float:right; padding:5px 10px 0; }
+ul.blog  img.blog_img { height:150px; margin-bottom:20px; width:628px; }
+
+ul.blog ul.comments { list-style:none; margin:0; padding:0; }
+ul.blog ul.comments li { margin-bottom:20px; }
+ul.blog ul.comments img.comment_gravatar { height:88px; width:88px; }
+ul.blog ul.comments .comment_content { padding:15px; }
+ul.blog ul.comments .comment_content small { padding-left:20px; }
+/* -END- Blog **************************************************************/
+
+/* Blog_brief **************************************************************/
+ul.blog_brief { list-style:none; /* margin-bottom:40px; */ margin-top:0; padding:0; }
+ul.blog_brief li.entry { margin-bottom:20px; }
+ul.blog_brief .blog_info { margin:0 0 20px; }
+ul.blog_brief .blog_info .date { float:left; padding:2px 10px; }
+ul.blog_brief .blog_info .info { float:right; padding:2px 10px 0; }
+ul.blog_brief  img.blog_img {  margin-bottom:20px; width:200px; }
+ul.blog_brief p { margin:0; }
+/* -END- Blog_brief ********************************************************/
+
+
+/* Sidebar *****************************************************************/
+.sidebar h3 { padding-bottom:5px; }
+.sidebar ul li { margin:10px 0; }
+.sidebar ul { margin-bottom:40px; }
+.sidebar form.search input { width:135px; }
+.sidebar form.search input.button { width:70px; }
+.sidebar form.search { margin-bottom:40px; }
+/* -END- Sidebar ***********************************************************/
+
+/* Contact -----------------------------------------------------------------*/
+#contact_form span.error { display:none; }
+#contact_form p#success { display:none; margin-bottom:20px; text-align:center; }
+/* -End- Contact -----------------------------------------------------------*/
+
+/* Pagination **************************************************************/
+ul.pagination { list-style:none; margin-top:0; padding:0; }
+ul.pagination li { float:left; margin-right:2px; }
+ul.pagination li.first span { margin-right:40px; padding-left:0; }
+ul.pagination li a , ul.pagination li span{ display:block; padding:3px 5px; }
+ /* -END- Pagination ********************************************************/
+
+/* Footer ******************************************************************/
+#footer { padding:40px 0 20px;
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+}
+#footer ul.follow{ list-style:none; margin:0 0 20px; padding:0; }
+#footer ul.follow li { float:left; margin:0 10px 10px 0; }
+#footer ul.contact { list-style:none; margin:0; padding:0; }
+#footer ul.contact li { margin:0 0 5px; }
+#footer ul.pages { margin-top:0; }
+#footer ul.pages li { margin:0 0 5px; }
+#footer ul.flickr{ list-style:none; margin:0; padding:0; }
+#footer ul.flickr li { margin-bottom:10px; margin-top:10px; }
+#footer ul.flickr img { width:58px; }
+
+#sub_footer { padding:15px 0; }
+#sub_footer a.logo { display:block; height:32px; margin-right:20px; padding-left:32px; }
+#sub_footer p { margin:0; }
+/* -END- Footer ************************************************************/

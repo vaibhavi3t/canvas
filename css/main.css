@@ -1,0 +1,119 @@
+#top
+{
+  width:1336px;
+  height:90px;
+  color:#FFFFFF;
+  border-radius:100px;
+  
+}
+#heading
+{
+  margin-left:100px;
+  margin-top:35px;
+  float:left;
+  font-family:"Chiller";
+  width:250px;
+  font-size:70px;
+}
+#welcome
+{
+  float:left;
+  margin-left:530px;
+  margin-top:25px;
+  font-family:"Times New Roman", Times, serif;
+  font-size:17px;
+ 
+  height:37px;
+  border-radius:20px;
+  width:900px;
+  color:#FFFFFF;
+  border:hidden;
+  border-width:0px;
+}
+a:link {color:#FFFFFF;}
+a:active {color:#999999;}
+a:visited {color:#FFFFFF;}
+
+#user_info
+{
+  width:700px;
+  margin-left:200px;
+  margin-top:20px;
+  background-color:#bbb;
+  
+}
+#full
+{
+  background-color:#D2E9FF;
+ }
+#home_content
+{
+  margin-top:240px;
+  background-color:#bbb;
+  margin-left:20px;
+}
+#prof_pic
+{
+  width:200px;
+  height:200px;
+  margin-top:40px;
+  float:left;
+}
+#user_name
+{
+  float:left;
+  margin-left:20px;
+  font-family:"Bodoni MT";
+  font-size:24px;
+}
+#quotes {
+font-family:"Times New Roman", Courier, monospace;
+font-style:italic;
+text-align:center;
+font-weight: bolder;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+color: #1001C9;
+margin-top: 8px;
+background: url(../images/b.png);
+width: 350px;
+height: 120px;
+
+}
+#status
+{
+  float:left;
+  margin-left:10px;
+}
+
+
+.footer
+{
+  float:center;
+  text-align:center;
+  margin-top:60px;
+  background-color:#990066;
+}
+#login_button
+{
+  float:right;
+  margin-right:75px;
+  margin-top:10px;
+  width:70px;
+  padding:inherit;
+  font-size:16px;
+  
+  
+}
+#logo
+{
+  height:300px;
+  width:400px;
+  margin-left:100px;
+  margin-top:80px;
+  border-radius:10px;
+  float:left;
+  
+}
+

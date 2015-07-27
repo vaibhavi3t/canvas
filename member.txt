@@ -1,0 +1,29 @@
+		member_id	int(11)			NOT NULL	AUTO_INCREMENT	
+	 	username	varchar(20)			NOT NULL			 
+	 	password	varchar(16)			NOT NULL			   
+	 	firstname	varchar(30)			NOT NULL			  
+	 	lastname	varchar(30)			NOT NULL			
+	 	address	varchar(200)			NOT NULL			
+	 	contact_no	varchar(40)						 
+	 	email	varchar(100)			NOT NULL			  
+	 	birthdate	varchar(100)			NOT NULL			 
+	 	b_month	varchar(20)			NOT NULL			 
+	 	b_day	varchar(20)			NOT NULL			 
+	 	b_year	varchar(20)			NOT NULL			 
+	 	gender	varchar(6)			NOT NULL			 
+	 	relationship	varchar(20)						 
+	 	interest	varchar(200)					 
+	 	quote	text						 
+	 	hometown	varchar(100)						 
+	 	college	varchar(100)						 
+	 	high_school	varchar(100)						 
+	 	aboutme	text						 
+	 	image	mediumtext			NOT NULL			 
+	 	type	varchar(20)			NOT NULL			 
+	 	course	varchar(100)			NOT NULL			 
+	 	yr_sec	varchar(100)			NOT NULL			 
+	 	batch	varchar(20)						 
+	 	id_no	varchar(20)			NOT NULL			 
+	 	status	varchar(20)						 
+	 	confirmation	varchar(5)			NOT NULL		
+		PRIMARY KEY(member_id)

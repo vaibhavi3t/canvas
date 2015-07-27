@@ -1,0 +1,62 @@
+/* Violine */
+
+body{
+	background:#111 url(../themes/violine/pages_bg.jpg) repeat-x top left;
+	}
+
+.homepage{
+	background:#111 url(../themes/violine/website_bg.jpg) repeat-x left top;
+}
+
+#footer{ background:url(../themes/violine/footer_bg.jpg) repeat-x left top;}
+
+.nav li a:hover{color:#CCC;}
+.nav ul li ul li a:hover{
+	color:#9966cc;
+	background:#151515;
+}
+
+#main a{ color:#CCC;}
+#main a:hover{color:#9966cc;}
+
+.twitter a{color:#9966cc;}
+.twitter a:hover{color:#FFF;}
+
+
+.readmore_1col a:hover{
+	background:url(../images/arrow_readmore_9966cc.png) no-repeat 50% bottom;
+	padding:0 0 15px 0;
+}
+
+	.continue a:hover{
+		background:url(../images/arrow_list_9966cc.png) no-repeat right 50%;
+		color:#9966cc;
+	}
+	
+.col_1 li a{
+	background:url(../images/arrow_list.png) no-repeat left 50%;
+	border-bottom:1px solid #333;
+	color:#FFF;
+	padding:3px 6px 3px 18px;
+	display:block;
+}
+.col_1 li a:hover{
+	background:url(../images/arrow_list_9966cc.png) no-repeat 8px 50%;
+	color:#9966cc;
+}
+
+#footer .left a{ color:#9966cc;}
+#footer .left a:hover{color:#CCC;}
+
+h5{ color:#9966cc;}
+
+.nice_images{
+	padding:1px 0;
+	border-top:1px solid #333;
+	border-bottom:1px solid #9966cc;
+}
+
+.homeSlogan{color:#9966cc;}
+
+
+.current{color:#9966cc !important;}
